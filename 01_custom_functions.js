@@ -57,7 +57,7 @@ for (var i = 0; i < trial_number; i++) {
   var same_or_different = _.sample(["same", "different"]);
   stimulus.push({
     question: "How is the connection between these shapes?",
-    picture: "mental_rotation_images/"+numb+"_"+rotation+"_"+same_or_different+".jpg",
+    picture: "images/"+numb+"_"+rotation+"_"+same_or_different+".jpg",
     key1: 's',
     key2: 'd',
     s: 'same',
